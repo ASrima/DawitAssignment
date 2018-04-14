@@ -9,7 +9,7 @@ export default class TaskItem extends React.Component {
     super(props);
    // this.state = {done: props.done, priority: props.priority};
     this.state ={
-      PickerValue: '#1'.substring(3 - props.priority),
+      PickerValue: '#1'.substring(3 - props.priority), //shows #1 as the 1st priority while sorting
       priority: props.priority
     };
 
